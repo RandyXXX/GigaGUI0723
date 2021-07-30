@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+  <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>-->
+  <script src='{{url_for('static',filename='jquery.min.js')}}'></script>
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $("#msgid").html("{{message}}");
+
+
+    });
+
+
+
+  </script>
+</head>
+<body>
+<h1>Lab:min28</h1>
+<div id="msgid"></div>
+</body>
+</html>

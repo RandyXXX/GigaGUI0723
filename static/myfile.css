@@ -1,0 +1,21 @@
+tr:nth-child(even){
+    background:#C0EEFF;
+}
+tr:nth-child(odd){
+    background:#AAFF00;
+}
+table{
+    border:3px solid#880000;
+
+}
+th{
+    background-color:#FFCCEE;
+
+}
+td{
+    border:2px solid #FF1122;
+}
+td:hover{
+    background-color:#00CCAA;
+
+}

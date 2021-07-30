@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='myfile.css')}}">
+    <title>{{title}}</title>
+</head>
+<body>
+<table >
+    <tr>
+        <th>Key</th>
+        <th>Value</th>
+    </tr>
+    {%for k,v in course.items()%}
+    <tr>
+        <td>{{k}}</td>
+        <td>{{v}}</td>
+    </tr>
+    {%endfor%}
+
+
+
+</table>
+demo27{{course}}
+<ul>
+    {%for s in series%}
+    <li>{{s}}</li>
+    {%endfor%}
+
+</ul>
+</body>
+</html>
